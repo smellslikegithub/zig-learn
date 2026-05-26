@@ -27,7 +27,7 @@ pub fn main() void {
 
 
     // You can also use logging to print; but it is reccomended to use debug print
-    // for non logging use cases.
+    // for non logging use cases. Then new line char is not needed.
 
-    std.log.debug("This is a string {s}\n", .{"No specifier is needed"});
+    std.log.debug("This is a string {s}", .{"No specifier is needed"});
 }
