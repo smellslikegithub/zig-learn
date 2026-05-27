@@ -1,5 +1,6 @@
 const std:type = @import("std");
 
+
 pub fn main() void {
 
     // Declaring procedure: 
